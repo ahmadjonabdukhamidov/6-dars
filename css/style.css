@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Aclonica&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Aclonica", sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.title {
+  user-select: none;
+  font-size: 1rem;
+}
+
+.time {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+img {
+  position: absolute;
+  transition: 0.1s;
+  margin-bottom: 10rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.wrapper-dv {
+  background: linear-gradient(rgba(208, 223, 8, 0.5), rgba(168, 5, 147, 0.5));
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem 2rem;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.wrapper-btn {
+  cursor: pointer;
+  font-weight: 900;
+  width: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+  border: solid lightseagreen;
+  background-color: aqua;
+  color: tomato;
+  transition: 0.4s;
+}
+
+.wrapper-btn:hover {
+  background-color: tomato;
+  color: aqua;
+}
+
+.gather-all {
+  padding-top: 15rem;
+}
+
+.reset {
+  cursor: pointer;
+  font-weight: 900;
+  width: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+  border: solid lightseagreen;
+  background-color: aqua;
+  color: tomato;
+}
+
+.reset:hover {
+  background-color: tomato;
+  color: aqua;
+}
+
+.info {
+  position: absolute;
+  margin-top: -15rem;
+}
